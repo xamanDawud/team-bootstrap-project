@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+body {
+  font-family: Cabin, sans-serif;
+  background-color: #f5f7fa;
+}
+header {
+  background-image: url("images/bacground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 0%;
+}
+#get-access {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+.h-content.col-lg-6 {
+  margin-top: 131px;
+  margin-bottom: 150px;
+}
+.h-content h1 {
+  font-size: 55px;
+  margin: 22px 0px;
+}
+.h-content.col-lg-6 p {
+  margin: 22px 0px;
+}
+input#header-email {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+}
+input#header-email {
+  padding: 7px 10px;
+  border-radius: 1px;
+  border: none;
+}
+button.btn.btn-primary.text-white {
+  padding: 7px 10px;
+  border-radius: 2px;
+  background-color: #0bcbff;
+  font-weight: 400;
+}
+
+/* Hub Section Styles */
+section.hub {
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+.hub-content h1 {
+  font-size: 56px;
+}
+
+.hub-content small {
+  font-size: 16px;
+  width: 416px;
+}
+
+.hub-content a {
+  color: #0bcbff;
+  text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+  background-color: #314051;
+}
+
+.f-email-input input[type="email"] {
+  background-color: red;
+}
